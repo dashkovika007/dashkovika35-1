@@ -245,6 +245,15 @@
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
   <!-- Кінець Google Map -->
 
+<script>
+  document.getElementById("bookBtn").addEventListener("click", function() {
+    gtag('event', 'hot_button_click', {
+      'button_name': 'Запис на фотосесію'
+    });
+  });
+</script>
+
+
 </body>
 
 </html>
